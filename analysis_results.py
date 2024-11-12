@@ -120,7 +120,7 @@ class ResultAnalyzer:
 # Example usage
 if __name__ == "__main__":
     # Your output path from model fitting
-    OUTPUT_PATH = "C:/Users/YourUsername/Documents/NBA_Project/models/output.csv"
+    OUTPUT_PATH = "C:/Users/Ajibola/Documents/NBA_Project/models/output.csv"
     
     # Initialize analyzer
     analyzer = ResultAnalyzer(OUTPUT_PATH)
@@ -134,8 +134,8 @@ if __name__ == "__main__":
     # Plot effects
     analyzer.plot_effects()
     
-    # Analyze player abilities (you'll need to provide player IDs)
-    player_ids = [1, 2, 3, 4, 5]  # Replace with your actual player IDs
+    # Analyze player abilities
+    player_ids = [1, 2, 3, 4, 5]  
     player_results = analyzer.get_player_abilities(player_ids)
     
     # Plot ability distributions
