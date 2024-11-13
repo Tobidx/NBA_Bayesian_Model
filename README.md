@@ -29,9 +29,9 @@ players.csv:
 - career_fg_attempts
 
 ## Run the model:
-Compile Stan model
+- Compile Stan model: 
 `stanc models/nba_model.stan --output=models/nba_model.hpp`
 `make models/nba_model`
 
-Run analysis
+- Run analysis: 
 `python src/model_fitting.py`
