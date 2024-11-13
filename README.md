@@ -14,19 +14,19 @@ This project implements a hierarchical Bayesian model to analyze NBA shooting ef
 The model expects two CSV files:
 
 shots.csv:
--player_id
--game_id
--shot_outcome ('made' or 'missed')
--x_location
--y_location
--game_clock
--defender_dist
+- player_id
+- game_id
+- shot_outcome ('made' or 'missed')
+- x_location
+- y_location
+- game_clock
+- defender_dist
 
 players.csv:
--player_id
--games_played
--career_fg_made
--career_fg_attempts
+- player_id
+- games_played
+- career_fg_made
+- career_fg_attempts
 
 ## Run the model:
 Compile Stan model
