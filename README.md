@@ -93,21 +93,21 @@ Bulk ESS / Total Samples:
   - Demonstrates high-end shooting efficiency
   - Effect size validates his status among league's top shooters
 
-## Model Fit Assessment
+# Model Fit Assessment
 
-# Posterior Predictive Checks
+## Posterior Predictive Checks
 
 - Mean predicted shots: 0.463
 - Actual mean: 0.458
 - 95% of actual values within posterior predictive intervals
 
-# Cross-Validation
+## Cross-Validation
 
 - LOO-CV: -15420.3
 - WAIC: -15421.5
 - Both metrics indicate good predictive performance
 
-# Model Diagnostics Analysis
+## Model Diagnostics Analysis
 
 - Strong convergence indicated by R-hat values all below 1.1
 - Acceptable but modest ESS ratios suggest need for longer chains in future iterations
